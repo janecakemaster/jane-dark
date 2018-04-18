@@ -1,0 +1,22 @@
+{
+    "name": "jane-dark",
+    "displayName": "jane-dark",
+    "description": "a dark theme for jane",
+    "version": "0.0.1",
+    "publisher": "janecakemaster",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Jane",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Jane-color-theme.json"
+            }
+        ]
+    }
+}
